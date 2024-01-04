@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{576E5229-0BC2-444A-95C9-3B6604013802}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{37E77A9F-633B-4BEF-A85B-FD6BC86AC0A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{CD3320D2-541F-4CF0-BC0B-A06243A41985}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{BA74B4D4-DFE6-4DD1-A7F2-65D4EE55F89E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proventech.Radio.Api", "Src\Application\Proventech.Radio.Api\Proventech.Radio.Api.csproj", "{0A75DFFD-FE32-4664-829C-F8DA22EC548B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proventech.Radio.Application", "Src\Application\Proventech.Radio.Application\Proventech.Radio.Application.csproj", "{80CCED3E-79DF-4BC4-93A0-FB9844C2090B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proventech.Radio.Core", "Src\Core\Proventech.Radio.Core\Proventech.Radio.Core.csproj", "{FFBB9AC4-43A4-43DA-96C4-DDEE854653C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proventech.Radio.Infrastructure", "Src\Infrastructure\Proventech.Radio.Infrastructure\Proventech.Radio.Infrastructure.csproj", "{FA1AE82A-4D63-4BD1-B71C-88A349EE7B61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A75DFFD-FE32-4664-829C-F8DA22EC548B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A75DFFD-FE32-4664-829C-F8DA22EC548B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A75DFFD-FE32-4664-829C-F8DA22EC548B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A75DFFD-FE32-4664-829C-F8DA22EC548B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80CCED3E-79DF-4BC4-93A0-FB9844C2090B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80CCED3E-79DF-4BC4-93A0-FB9844C2090B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80CCED3E-79DF-4BC4-93A0-FB9844C2090B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80CCED3E-79DF-4BC4-93A0-FB9844C2090B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFBB9AC4-43A4-43DA-96C4-DDEE854653C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFBB9AC4-43A4-43DA-96C4-DDEE854653C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFBB9AC4-43A4-43DA-96C4-DDEE854653C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFBB9AC4-43A4-43DA-96C4-DDEE854653C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA1AE82A-4D63-4BD1-B71C-88A349EE7B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA1AE82A-4D63-4BD1-B71C-88A349EE7B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA1AE82A-4D63-4BD1-B71C-88A349EE7B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA1AE82A-4D63-4BD1-B71C-88A349EE7B61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A75DFFD-FE32-4664-829C-F8DA22EC548B} = {576E5229-0BC2-444A-95C9-3B6604013802}
+		{80CCED3E-79DF-4BC4-93A0-FB9844C2090B} = {576E5229-0BC2-444A-95C9-3B6604013802}
+		{FFBB9AC4-43A4-43DA-96C4-DDEE854653C9} = {37E77A9F-633B-4BEF-A85B-FD6BC86AC0A0}
+		{FA1AE82A-4D63-4BD1-B71C-88A349EE7B61} = {CD3320D2-541F-4CF0-BC0B-A06243A41985}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FDAE9EE-23E9-41C2-8DED-A9848038DF1F}
+	EndGlobalSection
+EndGlobal
