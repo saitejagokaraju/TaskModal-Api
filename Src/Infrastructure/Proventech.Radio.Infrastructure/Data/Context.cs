@@ -12,6 +12,7 @@ public class Context : DbContext
     public DbSet<ModelTaskClass> ModelTasks { get; set; }
 
     public DbSet<Department>DepartmentTable { get; set; }
+
     public DbSet<UserModel> User { get; set; }
 
 

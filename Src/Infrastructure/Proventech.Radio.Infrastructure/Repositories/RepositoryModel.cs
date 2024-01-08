@@ -43,19 +43,32 @@ public class RepositoryModel : IRepositoryModel
     }
 
 
-    public ModelTaskClass GetDocumentById(int id)
+    public ModelTaskClass? GetDocumentById(int id)
     {
-        return _context.ModelTasks.Find(id);
+        ModelTaskClass? document = _context.ModelTasks.Find(id);
+
+        if (document != null)
+        {
+            return document;
+        }
+        return null;
     }
+
 
     public List<Department> GetDepartments()
     {
         return _context.DepartmentTable.ToList();
     }
-    public Department GetDepartmentNameByID(int DepId)
+    public Department? GetDepartmentNameByID(int DepId)
     {
-        return _context.DepartmentTable.Find(DepId);
+        Department? department = _context.DepartmentTable.Find(DepId);
+        if (department != null)
+        {
+            return department;
+        }
+        return null;
     }
+
 
     public async Task<(bool, string)> DeleteDocument(int id)
     {

@@ -72,7 +72,7 @@ public class ModelController : ControllerBase
 
         documents.ForEach(i =>
         {
-            i.DepartmentName = department.Where(id => id.Id == i.DepartmentId).Select(j => j.DepartmentName).FirstOrDefault();
+            i.DepartmentName = department.Where(x => x.Id == i.DepartmentId).Select(j => j.DepartmentName).FirstOrDefault();
         });
 
         //foreach (var document in documents)
